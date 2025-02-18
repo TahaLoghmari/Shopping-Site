@@ -1,0 +1,42 @@
+.shoppingCard {
+  composes: box from "./App.module.css";
+  padding: 0.75rem;
+  height: 34rem;
+  width: 18.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.938rem;
+}
+.img {
+  width: 18rem;
+  height: 20rem;
+}
+.buttons {
+  display: flex;
+  gap: 0.625rem;
+}
+.button {
+  composes: button from "./global.module.css";
+  width: 6.25rem;
+  border: 0;
+  cursor: pointer;
+}
+label {
+  color: #5475eb;
+}
+input {
+  background-color: white;
+  border: 0;
+  color: black;
+  border: 0;
+  border-radius: 0.5rem;
+  height: 1.563rem;
+  padding: 0.625rem;
+  width: 3.438rem;
+}
+.title {
+  color: white;
+  height: 4.5rem;
+}

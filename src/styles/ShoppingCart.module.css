@@ -1,0 +1,13 @@
+.shoppingCart {
+  margin: 2rem 0;
+}
+.shoppingCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 3rem;
+}

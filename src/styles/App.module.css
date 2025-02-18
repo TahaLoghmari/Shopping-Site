@@ -1,0 +1,70 @@
+.link {
+  composes: link from "./global.module.css";
+}
+.link > p:nth-child(2) {
+  color: black;
+}
+.box {
+  border: 0.063rem solid #222732;
+  border-radius: 0.75rem;
+  align-items: center;
+  backdrop-filter: blur(1.5rem);
+  box-shadow: rgba(9, 11, 17, 0.7) 0rem 0.25rem 1rem 0rem;
+  margin-top: 1.25rem;
+  padding: 0.75rem;
+  display: flex;
+}
+.header {
+  composes: box;
+  justify-content: space-between;
+}
+.logo,
+.buttons {
+  display: flex;
+  gap: 0.938rem;
+  align-items: center;
+  justify-content: center;
+}
+.appTitle {
+  color: #5475eb;
+  font-weight: bold;
+}
+.footer {
+  composes: box;
+  justify-content: center;
+}
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  text-decoration: underline #30353e;
+  color: #858da2;
+  text-underline-offset: 0.25rem;
+}
+a:hover {
+  text-decoration: none;
+}
+.numberOfItems {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5475eb;
+  color: white;
+  border-radius: 0.75rem;
+  border: 0;
+  top: -0.313rem;
+  right: -0.313rem;
+}
+.loadingScreen {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  font-weight: bold;
+  font-size: 3rem;
+}

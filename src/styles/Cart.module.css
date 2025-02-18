@@ -1,0 +1,33 @@
+.button {
+  composes: button from "./global.module.css";
+  border: 0;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #c3c8d6;
+}
+.cart {
+  composes: box from "./App.module.css";
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.emptyPurchasedProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 42.188rem;
+}
+.cartIcon {
+  height: 4.688rem;
+  width: 4.688rem;
+}
+.title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.miniTitle {
+  color: #7484a3;
+}
