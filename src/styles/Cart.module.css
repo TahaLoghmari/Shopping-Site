@@ -10,14 +10,14 @@
   composes: box from "./App.module.css";
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 .emptyPurchasedProducts {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
   min-height: 42.188rem;
 }
 .cartIcon {

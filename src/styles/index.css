@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+}
 html,
 body {
   overflow-x: hidden;
