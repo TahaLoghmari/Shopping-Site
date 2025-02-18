@@ -49,7 +49,9 @@ export default function ShoppingCard({
         className={styles.img}
       />
       <div className={styles.title}>{shoppingCard.title}</div>
-      <p className={styles.price}>${shoppingCard.price}</p>
+      <p className={styles.price}>
+        ${shoppingCard.price * shoppingCard.quantity}
+      </p>
       <div className={styles.quantity}>
         <label htmlFor="quantity">Qty : </label>
         <input

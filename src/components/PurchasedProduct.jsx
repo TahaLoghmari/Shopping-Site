@@ -67,7 +67,7 @@ export default function PurchasedProduct({
           <p>{purchasedProduct.description}</p>
         </div>
         <div className={styles.footer}>
-          <p>${purchasedProduct.price}</p>
+          <p>${purchasedProduct.price * purchasedProduct.quantity}</p>
           <button
             className={styles.button}
             onClick={() => {
